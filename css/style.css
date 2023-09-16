@@ -412,3 +412,29 @@
     .oferta-dos h2{color: #1059eb;}
 
     .oferta-tres h2{color: #1059eb;}
+
+    /****Login****/
+
+    .formulario {
+background-color: #5b5b5b;
+width: 50%;
+height: 18.75rem;
+display: flex;
+flex-direction: column;
+grid-template-columns: repeat(4, 200px);
+grid-template-rows: repeat(2, 50px);
+justify-content: space-around;
+align-items: start;
+border-radius: .625rem;
+margin-left: .625rem;
+color: white;
+padding-left: .625rem;
+
+    }
+.datos {
+    color: #1059eb;
+    font-size: 1.5625rem;
+    margin-left: 1.25rem;
+}
+
+
