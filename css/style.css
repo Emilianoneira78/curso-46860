@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+    /*header*/
+
+    header {
+        width: 99%;
+        height: auto;
+        display:flex;
+        flex-direction: row;
+        position: sticky;
+        top: 0;
+        z-index:0;
+        background-color: #f8f6f6;
+        align-items: center;
+        justify-content: space-between;
+       
+        background-size: cover;
+        border-radius: .625rem;
+        margin: 0.2% auto;
+
+    }
+    
+    .nav li {
+        list-style: none;
+        display:inline;
+        align-content: .125rem ;
+        font-size: 1.25rem;
+        justify-items: space-around;
+        padding: .75rem;
+        font-family:monospace;
+       
+    }
+    .nav li a:hover{
+        color: #1059eb;
+        text-shadow: 1px 5px 35px;
+
+    }
+    
+    .nav li a {
+        text-decoration: none;
+        color: #5b5b5bff;
+
+
+    }
+
+    
+    
+    
+
+    .frase {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 25rem;
+        width: 98% ;
+        height: 25rem;
+        background-image: url("../assets/fotos/image-home.jpeg");
+        background-position: center;
+        background-size: cover;
+        color: rgb(22, 21, 21);
+        margin: 0px 30px .625rem .625rem;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 1.125rem;
+        font-family: monospace;
+
+    }
+
+   .baner-servicios {
+    display: grid;
+    width: 98% ;
+    grid-template-columns: repeat(4, 12.5rem);
+    font-size: 12px;
+    margin: 30px 2px 0px 2px;
+    justify-content: space-around;
+    
+
+   }
+
+   .icon-envio {
+    font-size: 12px;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly ;
+    background-color: #b0b0b0;
+    border: 2px solid rgb(222, 230, 236);
+    border-radius: .625rem;
+    
+    
+
+   }
+   .icon-app {
+    font-size: 12px;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly ;
+    background-color: #b0b0b0;
+    border: 2px solid rgb(222, 230, 236);
+    border-radius: .625rem;
+    
+   }
+   .icon-domicilio {
+    font-size: 12px;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly ;
+    background-color: #b0b0b0;
+    border: 2px solid rgb(222, 230, 236);
+    border-radius: .625rem;
+   }
+
+   .icon-atencion {
+    font-size: 12px;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly ;
+    background-color: #b0b0b0;
+    border: 2px solid rgb(222, 230, 236);
+    border-radius: .625rem;
+   }
+   
+
+   .marcas {
+    background-color: #5b5b5b;
+    text-align: center;
+    font-size: 1.875rem;
+    height: 3.125rem;
+    color: white;
+    width: 70% ;
+    margin: 4% auto;
+    border-radius: .625rem;
+    padding: 0%;
+
+}
+
+.nuestras-marcas img {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+.nuestras-marcas {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.catalogo {
+    font-size: 20px;
+    background-image: url(../assets/fotos/baner_catalogo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:2% auto ;
+    width: 98%;
+    padding: 40px 0px 20px 3.125rem;
+    border-radius: 1.25rem;
+    
+    height: 7.5rem;
+    color: white;
+}
+.catalogo :hover {
+    color: #1059eb;
+}
+
+.fichas {
+    display: grid;
+    grid-template-columns: repeat(4, 400px);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: .3125rem;
+    row-gap: .625rem ;
+    justify-content:space-between;
+    margin: 1.25rem
+
+
+}
+
+.uno {
+    border: .125rem solid black;
+    border-radius: .625rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: left;
+    font-size: 16px;
+    padding: .625rem;
+}
+
+
+.dos {
+    border: .125rem solid black;
+    border-radius: .625rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: left;
+    padding: .625rem;
+}
+
+
+.tres {
+    border: .125rem solid black;
+    border-radius: .625rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: left;
+    padding: .625rem;
+}
+
+.cuatro {
+    border: .125rem solid black;
+    border-radius: .625rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: left;
+    padding: .625rem;
+}
+
+.cinco {
+    border: .125rem solid black;
+    border-radius: .625rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: left;
+    padding: .625rem;
+}
+
+.seis {
+    border: .125rem solid black;
+    border-radius: .625rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: left;
+    padding: .625rem;
+}
+
+.siete {
+    border: .125rem solid black;
+    border-radius: .625rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: left;
+    padding: .625rem;
+}
+
+.ocho {
+    border: .125rem solid black;
+    border-radius: .625rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: left;
+    padding: .625rem;
+}
+
+.nueve {
+    border: .125rem solid black;
+    border-radius: .625rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: left;
+    padding: .625rem;
+}
+
+.diez {
+    border: .125rem solid black;
+    border-radius: .625rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: left;
+    padding: .625rem;
+}
+.once {
+    border: .125rem solid black;
+    border-radius: .625rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: left;
+    padding: .625rem;
+}
+.doce {
+    border: .125rem solid black;
+    border-radius: .625rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: left;
+    padding: .625rem;
+}
+
+
+    
+   .footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 9.375rem;
+    background-color: #dadada;
+    padding: 1.25rem;
+    margin: 1.25rem;
+    border-radius: .625rem;
+    height: 1fr;
+    width: 98%;
+    
+   }
+
+   .footer .logo img {
+    width: 20%;
+   }
+   .footer .logo  {
+    font-size: 1.125rem;
+   }
+
+   .logo {
+    
+    display: flex;
+    
+    flex-direction: column;
+    color: rgb(27, 25, 25);
+    align-items: center;
+
+   }
+
+   .nav-foot li a {
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    font-size: 1.25rem ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+   }
+   .nav-foot li {
+    list-style: none;
+
+   }
+
+    .datos-contacto .ubicacion {
+    text-align: justify;
+    
+    /***qienes somos***/
+
+    }
+    .quienes-somos {
+    background-image: url(../assets/fotos/quienes-somos.png);        font-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:2% auto ;
+    width: 98%;
+    padding: 40px 0px 20px 3.125rem;
+    border-radius: 1.25rem;
+    color: white;
+    }
+
+    .quienes-somos :hover {
+        color: #1059eb;
+    }
+    .foto-quienes-somos {
+        display: flex;
+        font-size: 1.5625rem;
+        justify-content: center;
+        gap: .625rem;
+        height: 98%;
+        padding: .3125rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .foto-quienes-somos img {
+        border: 10px solid white;
+       
+    }
+
+    /***Ofertas***/
+
+    .banner-ofertas {
+        background-image:url(../assets/fotos/download.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 98%;
+        height: 12.5rem;
+        font-size: 30px;
+        padding: 30px;
+
+    }
+    .banner-ofertas :hover {
+        color: #1059eb;
+    }
+    
+    .super-ofertas {
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+        margin: 2%;
+       grid-template-rows: 1fr;
+       justify-items: center;
+       font-size: 20px;
+       text-align: center;
+       border: 4px solid black;
+
+    }
+    .oferta-uno h2 { color: #1059eb;}
+
+    .oferta-dos h2{color: #1059eb;}
+
+    .oferta-tres h2{color: #1059eb;}
