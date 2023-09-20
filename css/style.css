@@ -67,6 +67,10 @@
         font-family: monospace;
 
     }
+    .frase h2::first-letter{
+        color: rgb(248, 238, 238);
+        font-size: 300%;
+    }
 
    .baner-servicios {
     display: grid;
